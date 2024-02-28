@@ -1,8 +1,8 @@
-# IurisAI
+# IurisAI 📖
 Projecto de un sitema automatico de clasificacion y recomendacion de texto
 
 
-# Objetivos:
+# Objetivos 🥇
 
 - crear una base de datos de textos juridicos 
 
@@ -12,4 +12,9 @@ Projecto de un sitema automatico de clasificacion y recomendacion de texto
     - tipos de analisis:
         - tageo de categoria (probability based)
         - resumen del texto 
-        - arbol de referencias 
+        - arbol de referencias
+
+# Funcionalidades 🔧
+- Resumen de Leyes y Fallos
+- Recomendacion Fallos
+- Generación de Textos Juridicos 
