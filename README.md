@@ -13,5 +13,3 @@ Projecto de un sitema automatico de clasificacion y recomendacion de texto
         - tageo de categoria (probability based)
         - resumen del texto 
         - arbol de referencias 
-
-- 
