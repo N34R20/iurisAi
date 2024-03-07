@@ -21,10 +21,13 @@ shared_state.pdf_path = args.pdf_path
 
 print(shared_state.pdf_path)
 
+"""
+https://pypdf2.readthedocs.io/en/3.0.0
+"""
 from PyPDF2 import PdfReader
 
 reader = PdfReader(pdf_file_path)
-len_pages = reader.getNumPages()
+len_pages = len(reader.pages)
 
 # Inicializar una cadena para almacenar el texto extraído
 text = ''
@@ -34,3 +37,8 @@ for page_num in range(len_pages):
     text += page.extract_text()
 
 print(text)
+
+"""
+Falta dumpear el .txt en un folder/archivo y que sea tambien un argumento de la cli
+
+"""
